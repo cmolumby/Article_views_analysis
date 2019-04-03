@@ -5,7 +5,7 @@ A python script that can be launched from the command line or in any python shel
 2. The times where the number of page views via mobile phone is higher than the mean (throughout the day) number of page views    via mobile phone.
 
 ## Getting started
-Download a copy of the program (Views_analysis.py) and store in the same location as the dataset (article-Devices.csv). The location filepath of the csv file on the local machine must be specified inside the read_csv method at line 12.
+Download a copy of the program (Views_analysis.py) and store it in the same location as the dataset (article-Devices.csv). The location filepath of the csv file on the local machine must be specified inside the read_csv method at line 12.
 If the csv file is located in the same folder as the program file, the program downloaded from the repository does not need to be modified.
 
 The output file names are Result_mobile_percentage.txt, which answers question 1 above, and Result_times_above_mean.txt, which answers question 2.
